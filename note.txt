@@ -1,0 +1,25 @@
+1. Convert all text as lowercase by using toLowerCase() function/method after string.
+2. Convert all text as upperrcase by using toUpperCase() function/method after string.
+
+3. split- The split() method splits/divides a string into an array of substrings, and returns the new array. If an empty string ("") is used as the separator, the string is split between each character. The split() method does not change the original string.
+
+
+4.slice- The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. 
+
+5. substr- The substr() method extracts parts of a string, beginning at the character at a specified position, and returns a specified number of characters. 
+Tip: To extract characters from the end of the string, use a negative start number.
+
+substr() method does not change the original string.
+
+start: Required. The position where to start the extraction. First character is at index 0. If start is positive and greater than, or equal, to the length of the string, substr() returns an empty string. If start is negative, substr() uses it as a character index from the end of the string. If start is negative or larger than the length of the string, start is set to 0.
+
+length: Optional. The number of characters to extract. If omitted, it extracts the rest of the string.
+
+
+6. substring- The substring() method extracts characters, between to indices (positions), from a string, and returns the substring. The substring() method extracts characters between "start" and "end", not including "end". If "start" is greater than "end", substring() will swap the two arguments, meaning (1, 4) equals (4, 1). If "start" or "end" is less than 0, they are treated as 0.
+
+The substring() method does not change the original string.
+
+
+
+7. join- The join() method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string. If the array has only one item, then that item will be returned without using the separator.

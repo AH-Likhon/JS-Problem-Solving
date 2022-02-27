@@ -1,0 +1,60 @@
+1. Javascript is a dynamic type programming language.
+
+
+2. Javascript has 7 types of data type
+	 #number
+	#string
+	#boolean
+	#undefined
+	#null
+	#object
+	#symbol
+
+Js has 2 border category for data types
+
+### Primitive Data Type- (Primitive Data Type is immutable)
+ 	#number
+	#string
+	#boolean
+	#undefined
+	#null
+	#symbol
+
+### Non Primitive Data Type
+	#object
+
+3. /*
+Falsy:
+false, 0, empty string, undefined, null, NaN
+
+Truthy: true, any number (positive or negative), any string including single whitespace, '0', 'false', [], {}
+
+Summary: Anything else that is falsy will be truthy
+*/
+
+
+4. /*
+Undefined: undefined is a fault by debveloper.
+1. Variable value not assigned
+2. function but didn't write return
+3. just wrote return but didn't return anything
+4. parameter that isn't passed
+5. propery that doesn't exist in an object
+6. accessing array element out of range
+7. accesing deleted array element
+8. explicity set value to undefined
+
+null: null is set by developer which mean the value is not yet on hand.
+
+Diffrenece: In JavaScript, undefined is a type, whereas null an object. It means a variable declared, but no value has been assigned a value. Whereas, null in JavaScript is an assignment value. You can assign it to a variable.
+*/
+
+
+5. /*
+== which works implicitely/hiddenly that means first it converts anything into value and then check only value. It doesn't check type.
+===(Most of the time it is use for primitive data types) it's directly check both value and type.
+*/
+
+6. let, const are used in block scope.
+
+7. Closure: A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.
