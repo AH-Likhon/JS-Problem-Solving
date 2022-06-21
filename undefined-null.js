@@ -17,15 +17,15 @@ Diffrenece: In JavaScript, undefined is a type, whereas null an object. It means
 // let p = 'JavaScript';
 // let q = p;
 // p = 'React';
-// console.log(q);
+// console.log(p, q);
 
-/* const isTrue = 'false';
+// const isTrue = 'false';
 
-if (!isTrue) {
-    console.log('hello');
-} else {
-    console.log('world');
-} */
+// if (!isTrue) {
+//     console.log('hello');
+// } else {
+//     console.log('world');
+// }
 
 
 /*
@@ -50,4 +50,4 @@ function work(x, y = 4) {
 
 }
 
-console.log(work(32); */
+console.log(work(32)); */

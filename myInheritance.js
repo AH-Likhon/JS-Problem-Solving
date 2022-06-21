@@ -61,10 +61,10 @@ console.log(a + b); */
 
 /* const { x, y, z } = { x: 1, y1: 2, z: 3 };
 console.log(y); */
-/* 
-const nums = [1,2,3,4,5]; 
-let output = nums.filter(n => n%2); 
-console.log(output); */
+
+// const nums = [1, 2, 3, 4, 5];
+// let output = nums.filter(n => n % 2 !== 0);
+// console.log(output);
 
 /* const friends = ["Moushumi", "Misha", "Manna", "mimi", "mahiya"];
 const fLength = friends.find(friend => friend.length == 5);

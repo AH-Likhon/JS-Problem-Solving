@@ -19,4 +19,5 @@ const kibriaCost = kibria.treatDen(100);
 // console.log(kibriaCost);
 
 const heroTreat = kibria.treatDen.bind(heroAlom);
-heroTreat(500);
+// heroTreat(500);
+console.log(heroTreat(500));

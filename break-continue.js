@@ -20,23 +20,23 @@
 var numbers = [10, 25, 24, 85, 35, 105, 46, 95, 12];
 //// nothing  //
 
-for (var i = 0; i < numbers.length; i++) {
-    var number = numbers[i];
-    console.log(number);
-    if (number > 80) {
-        break;
-    }
-}
-
-// continue 
 // for (var i = 0; i < numbers.length; i++) {
 //     var number = numbers[i];
-//     if (number > 80) {
-//         continue;
-//     }
-
 //     console.log(number);
+//     if (number > 80) {
+//         break;
+//     }
 // }
+
+// continue 
+for (var i = 0; i < numbers.length; i++) {
+    var number = numbers[i];
+    if (number > 80) {
+        continue;
+    }
+
+    console.log(number);
+}
 
 
 

@@ -16,10 +16,10 @@
 
 
 //quiz 4
-// const str = 'I love coding more than eating.';
+const str = 'I love coding more than eating.';
 // const result = str.slice(2, 6);
-// // const result = str.split('love');
-// console.log(result);
+// const result = str.split('love');
+// console.log(result); // [ 'I ', ' coding more than eating.' ]
 
 
 // quiz 5

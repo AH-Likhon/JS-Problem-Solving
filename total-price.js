@@ -45,7 +45,8 @@ function Gfg(s) {
     s[s.length - 1] = 10;
     // printing output to screen
     // return 'First element is ' + f;
-    return s[s.length - 1];
+    // return s[s.length - 1];
+    return s;
 
 }
 const result = Gfg(s); // calling the function

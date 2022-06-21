@@ -7,7 +7,7 @@ let sum = 0; */
 }
 console.log(sum); */
 
-/* 
+/*
 const numbers = [12, 54, 45, 56, 74, 40, 94];
 
 function arraySum(numbers) {
@@ -23,16 +23,30 @@ const total = arraySum(numbers);
 console.log(total); */
 
 
-const selected = [];
+// array.reduce(function(total, currtValue, currntIndex, arr), initialValue)
 
-for (let i = 0; i < 10; i++) {
-    const random = Math.random() * 100;
-    const round = Math.round(random);
-    if (selected.indexOf(round) === -1) {
-        selected.push(round);
-    }
-}
+// const numbers = [12, 54, 45, 56, 74, 40, 94];
 
-console.log(selected);
+// const arrayRedSum = (total, value) => {
+//     return total + value;
+// }
+
+// const result = numbers.reduce(arrayRedSum, 0);
+
+// console.log(result);
+
+
+
+// const selected = [];
+
+// for (let i = 0; i < 10; i++) {
+//     const random = Math.random() * 100;
+//     const round = Math.round(random);
+//     if (selected.indexOf(round) === -1) {
+//         selected.push(round);
+//     }
+// }
+
+// console.log(selected);
 
 

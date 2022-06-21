@@ -13,3 +13,11 @@ function question0(array) {
 var ages = [4, 5, 7, 8, 14, 45, 76, 40, 42, 75, 76];
 var even = question0(ages);
 console.log(even);
+
+
+// ternary operator
+
+var n = 15;
+var result = n % 2 === 0 ? 'Even' : 'Odd';
+
+console.log(result);

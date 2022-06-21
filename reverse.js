@@ -12,3 +12,7 @@ function reverseString(text) {
 
 const reversed = reverseString(greetings);
 console.log(reversed);
+
+// const reverse = greetings.split('').reverse().join('').length;
+
+// console.log(reverse);

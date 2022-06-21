@@ -1,5 +1,5 @@
 function getInterest(priciple, rate, time) {
-    interest = priciple * rate * time;
+    var interest = priciple * rate * time;
     return interest;
 }
 

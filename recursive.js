@@ -1,18 +1,3 @@
-//find out the value of nth element from a fibonacci series
-
-// function fiboSeries(n) {
-//     if (n == 0) {
-//         return 0;
-//     } else if (n == 1) {
-//         return 1;
-//     } else {
-//         return fiboSeries(n - 1) + fiboSeries(n - 2);
-//     }
-// }
-// const fiboElement = fiboSeries(6);
-// console.log(fiboElement); 
-
-
 // fibonacci series using recursive function
 
 function fiboSeries(n) {
@@ -27,8 +12,8 @@ function fiboSeries(n) {
     }
 }
 
-const fibonacciSeries = fiboSeries(13);
-console.log(fibonacciSeries); 
+const fibonacciSeries = fiboSeries(6);
+console.log(fibonacciSeries);
 
 /* const selected = [];
 

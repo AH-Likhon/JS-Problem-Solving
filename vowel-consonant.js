@@ -11,27 +11,27 @@ function vowelsAndConsonants(s) {
     for (i in s) {
         if (s.charAt(i) == "a" || s.charAt(i) == "e" || s.charAt(i) == "i" ||
             s.charAt(i) == "o" || s.charAt(i) == "u") {
-            strVowels += s.charAt(i);
+            strVowels += s.charAt(i) + ' ';
         }
         else if (s.charAt(i) != "a" || s.charAt(i) != "e" || s.charAt(i) != "i"
             || s.charAt(i) != "o" || s.charAt(i) != "u") {
-            strConsonants += s.charAt(i);
+            strConsonants += s.charAt(i) + ' ';
         }
     }
 
-    // console.log(strVowels);
+    console.log(strVowels);
 
     // i = 0;
-    for (i in strVowels) {
-        console.log(strVowels.charAt(i));
-    }
+    // for (i in strVowels) {
+    //     console.log(strVowels.charAt(i));
+    // }
 
-    // console.log(strConsonants);
+    console.log(strConsonants);
 
     // i = 0;
-    for (i in strConsonants) {
-        console.log(strConsonants.charAt(i));
-    }
+    // for (i in strConsonants) {
+    //     console.log(strConsonants.charAt(i));
+    // }
 
 }
 
